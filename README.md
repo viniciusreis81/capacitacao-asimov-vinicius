@@ -1,0 +1,71 @@
+<!-- Cabeçalho com Imagem -->
+<div align="center">
+  <img src="[https://capsule-render.vercel.app/api?type=waving&color=0055ff&height=200&section=header&text=Vinícius%20Reis&fontSize=70&fontColor=ffffff](https://capsule-render.vercel.app/api?type=waving&color=0055ff&height=200&section=header&text=Vinícius%20Reis&fontSize=70&fontColor=ffffff)" />
+  
+  <h3>Engenharia de Controle e Automação | UNIFEI</h3>
+
+  <!-- Badges de Contato -->
+  <a href="[https://www.linkedin.com/in/vinicius-reis-005717433/](https://www.linkedin.com/in/vinicius-reis-005717433/)" target="_blank">
+    <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" />
+  </a>
+  <a href="[https://github.com/viniciusreis81](https://github.com/viniciusreis81)" target="_blank">
+    <img src="[https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" />
+  </a>
+  <a href="mailto:viniciuscic70@gmail.com" target="_blank">
+    <img src="[https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)" />
+  </a>
+  <a href="[https://www.instagram.com/viniciusreisz/](https://www.instagram.com/viniciusreisz/)" target="_blank">
+    <img src="[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)" />
+  </a>
+</div>
+
+<br>
+
+## 👨‍💻 $ whoami
+
+<pre><code>vinicius = {
+    "name": "Vinícius Reis",
+    "age": 18,
+    "location": "Brazópolis - MG, Brasil",
+    "education": "Engenharia de Controle e Automação @ UNIFEI",
+    "role": "Desktop Trainee @ Asimov Jr.",
+}</code></pre>
+
+Sou movido pela curiosidade de entender como as coisas funcionam. Minha paixão pela tecnologia ganha força quando ela se conecta ao mundo real: sistemas dinâmicos, automação industrial, robótica e sistemas embarcados. Acho incrível o papel da Inteligência Artificial em dar vida a máquinas e simplificar processos, explorando áreas como Visão Computacional e Machine Learning. Minha motivação no software é exatamente essa: aprender na prática, evoluir a cada desafio e construir soluções que gerem impacto real.
+
+
+
+
+
+## 🎓 Formação e Experiência
+- 🎓 **Graduação:** Engenharia de Controle e Automação - UNIFEI (Início em 2026)
+- 💼 **Desktop Trainee:** Asimov Jr. (Atual)
+- 🤝 **Membro da Diretoria de Eventos:** CAECA (Atual)
+- 🏭 **Auxiliar Administrativo:** Atuação nas rotinas administrativas, financeiras e operacionais no **Café Brazópolis**.
+
+## 🛠️ Tecnologias e Ferramentas
+
+<div align="center">
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg)" height="40" alt="c logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg)" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg)" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg)" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg)" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg)" height="40" alt="arduino logo"  />
+</div>
+
+## 📊 Minhas Estatísticas no GitHub
+<div align="center">
+  <img src="[https://github-readme-stats.vercel.app/api?username=viniciusreis81&show_icons=true&theme=tokyonight](https://github-readme-stats.vercel.app/api?username=viniciusreis81&show_icons=true&theme=tokyonight)" />
+</div>
+
+---
+## 🗂️ Índice da Capacitação Asimov Jr.
+- [Semana 01 - Git e GitHub](./semana-01-git)
