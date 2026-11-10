@@ -23,12 +23,11 @@
 
 ```python
 vinicius = {
-    "name": "Vinícius Martins dos Reis",
+    "name": "Vinícius Reis",
     "age": 18,
-    "location": "Itajubá - MG, Brazil",
-    "education": "Control and Automation Engineering @ UNIFEI",
-    "role": "Desktop Trainee @ Asimov Jr.",
-    "hobbies": ["Weightlifting", "Combat Sports", "Soccer", "Science & Tech"]
+    "location": "Brazópolis - MG, Brasil",
+    "education": "Engenharia de Controle e Automação-UNIFEI",
+    "role": "Desktop Trainee-Asimov Jr.",
 }
 ```
 
@@ -48,9 +47,19 @@ Sou movido pela curiosidade de entender como as coisas funcionam. Minha paixão 
   <img src="https://skillicons.dev/icons?i=python,c,html,css,git,vscode,arduino" alt="Tecnologias" />
 </div>
 
+## 📂 Estrutura do Projeto (WIP)
+
+```text
+capacitacao-asimov-vinicius/
+├── semana-01-git/
+│   └── README.md      # Documentação e comandos da semana 1
+├── .gitignore
+└── README.md          # Perfil e currículo principal
+```
+
 ## 📊 Minhas Estatísticas no GitHub
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=viniciusreis81&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=viniciusreis81&theme=tokyonight&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
 </div>
 
 ---
