@@ -34,7 +34,7 @@ vinicius = {
 Sou movido pela curiosidade de entender como as coisas funcionam. Minha paixão pela tecnologia ganha força quando ela se conecta ao mundo real: sistemas dinâmicos, automação industrial, robótica e sistemas embarcados. Acho incrível o papel da Inteligência Artificial em dar vida a máquinas e simplificar processos, explorando áreas como Visão Computacional e Machine Learning. Minha motivação no software é exatamente essa: aprender na prática, evoluir a cada desafio e construir soluções que gerem impacto real.
 
 
-
+---
 ## 🎓 Formação e Experiência
 - 🎓 **Graduação:** Engenharia de Controle e Automação - UNIFEI (Início em 2026)
 - 💼 **Desktop Trainee:** Asimov Jr. (Atual)
@@ -47,6 +47,7 @@ Sou movido pela curiosidade de entender como as coisas funcionam. Minha paixão 
   <img src="https://skillicons.dev/icons?i=python,c,html,css,git,vscode,arduino" alt="Tecnologias" />
 </div>
 
+---
 ## 📂 Estrutura do Projeto (WIP)
 
 ```text
@@ -56,6 +57,24 @@ capacitacao-asimov-vinicius/
 ├── .gitignore
 └── README.md          # Perfil e currículo principal
 ```
+---
+## 🗺️ Trilha de Capacitação Asimov Jr.
+
+| Semana | Período | Tema | Peso | Status | Diretório |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **01** | 03/11 a 10/11 | Git e GitHub | 5% | ✅ Concluído | [Acessar](./semana-01-git) |
+| **02** | 10/11 a 17/11 | HTML e CSS | 7% | ⏳ Em breve | - |
+| **03** | 17/11 a 01/12 | TypeScript | 7% | ⏳ Em breve | - |
+| **04** | 01/12 a 08/12 | Tailwind CSS | 6% | ⏳ Em breve | - |
+| **05** | 08/12 a 15/12 | Angular Pt.1 | 8% | ⏳ Em breve | - |
+| **06** | 15/12 a 22/12 | Angular Pt.2 | 8% | ⏳ Em breve | - |
+| **07** | 05/01 a 12/01 | Firebase | 6% | ⏳ Em breve | - |
+| **08** | 12/01 a 19/01 | MongoDB Pt.1 | 7% | ⏳ Em breve | - |
+| **09** | 19/01 a 26/01 | MongoDB Pt.2 | 8% | ⏳ Em breve | - |
+| **10** | 26/01 a 29/01 | Notion | 5% | ⏳ Em breve | - |
+| **11-12** | 02/02 a 16/02 | Projeto Final | 23% | ⏳ Em breve | - |
+
+---
 
 ## 📊 Minhas Estatísticas no GitHub
 <div align="center">
