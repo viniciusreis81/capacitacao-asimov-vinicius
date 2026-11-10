@@ -1,4 +1,3 @@
-# Capacitação Asimov Jr. - Versão da Branch
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0055ff&height=200&section=header&text=Vin%C3%ADcius%20Reis&fontSize=70&fontColor=ffffff" alt="Banner" />
   
