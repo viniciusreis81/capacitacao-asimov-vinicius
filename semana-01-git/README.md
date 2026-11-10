@@ -14,7 +14,7 @@ Durante a criação do perfil e organização do projeto, o fluxo contínuo de v
 * **`git checkout <branch>`**: Alterna entre ramificações (branches) do projeto.
 * **`git merge <branch>`**: Integra as alterações de uma branch específica para dentro da branch atual em que se está trabalhando.
 
-
+---
 
 ## 🏷️ Padrão Conventional Commits
 
@@ -28,6 +28,11 @@ Abaixo estão os tipos utilizados na prática durante esta semana:
 | **`fix`** | Correções de bugs, links quebrados ou falhas estruturais. | `fix: corrige links e formatação do readme` |
 | **`feat`** | Adição de novas funcionalidades, arquivos base ou pastas. | `feat: adiciona gitignore e estrutura de pastas` |
 
+
+---
+
+## 🔀 Resolução do Conflito de Merge
+Para cumprir os requisitos da semana, provoquei intencionalmente um conflito alterando a mesma linha do `README.md` principal em duas branches distintas (`main` e `semana-01-git`). Ao executar `git merge main` na minha branch de trabalho, o Git acusou o conflito. Utilizei o VS Code para inspecionar os marcadores de colisão (`<<<<<<<`, `=======`), selecionei a opção "Accept Current Change" para manter o currículo correto, limpei os resquícios e finalizei a integração com um novo commit.
 
 ---
 
