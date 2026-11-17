@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Vinícius Reis</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <button id="btn-mobile" aria-label="Abrir Menu">☰</button>
+            <ul id="menu">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button id="btn-tema">🌙 Escuro</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Vinícius Reis, um amante de tecnologia e estudante de engenharia de controle e automação na UNIFEI. Atualmente, atuo como trainee de Desktop da Asimov Jr e membro da diretoria de Eventos do CAECA. Minhas experiências práticas estão ligadas ao setor administrativo e financeiro, programação, eletrônica digital, programação embarcada e Inteligência Artificial. Hoje, meu foco é aplicar esses conhecimentos nas áreas da tecnologia e industrial, e assim, construir um repertório vasto para o meu grande objetivo profissional, que é atuar no setor de Óleo e Gás(Offshore), desenvolvendo tecnologias que otimizem processos complexos.</p>
+        </section>
+
+        
+        <section id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            
+            
+            <div class="habilidades-container">
+                
+                <div class="card-habilidade">
+                    <h3>Programação e Web</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>HTML5 e CSS3</li>
+                    </ul>
+                </div>
+
+                <div class="card-habilidade">
+                    <h3>Hardware e Embarcados</h3>
+                    <ul>
+                        <li>Microcontroladores (ESP32 e Arduino)</li>
+                        <li>Eletrônica Digital (Intel Quartus Prime)</li>
+                    </ul>
+                </div>
+
+                <div class="card-habilidade">
+                    <h3>Ferramentas</h3>
+                    <ul>
+                        <li>Git e GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+                <div class="card-habilidade">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Inglês Intermediário (Leitura e escuta avançadas, fala intermediária)</li>
+                        <li>Resolução de problemas e rotinas operacionais</li>
+                        <li>Organização e visão de negócios</li>
+                    </ul>
+              </div>
+        </section>
+
+        
+        <section id="projetos">
+            <h2>Projetos em Destaque</h2>
+            
+            <div class="projetos-container">
+                
+                <article class="card-projeto">
+                    <h3>Controlador de Sistema Antifurto (ESP32)</h3>
+                    <p>Desenvolvimento de um sistema antifurto com conectividade Wi-Fi, utilizando o microcontrolador ESP32 para controle de acesso.</p>
+                    <a href="img/projeto-esp32.jpeg" target="_blank">
+                        <img src="img/projeto-esp32.jpeg" alt="Hardware do sistema antifurto montado com o microcontrolador ESP32">
+                    </a>
+                </article>
+
+                <article class="card-projeto">
+                    <h3>Controlador de Robô Seguidor de Linha (Em desenvolvimento)</h3>
+                    <p>Projeto e simulação da lógica de controle digital utilizando o software Intel Quartus Prime, visando implementação futura em hardware FPGA.</p>
+                    <a href="img/quartusproject.jpeg" target="_blank">
+                        <img src="img/quartusproject.jpeg" alt="Captura de tela da simulação lógica do robô no software Intel Quartus Prime">
+                    </a>
+                </article>
+
+                <article class="card-projeto">
+                    <h3>Versionamento Profissional e GitHub</h3>
+                    <p>Estruturação de repositório com Git, aplicação de Conventional Commits, resolução manual de conflitos de merge e criação de README estruturado.</p>
+                    <a href="https://github.com/viniciusreis81/capacitacao-asimov-vinicius" target="_blank">
+                        <img src="img/repositoriosem01.jpeg" alt="Captura de tela do perfil do GitHub mostrando o repositório da capacitação e o README">
+                    </a>
+                    <a href="https://github.com/viniciusreis81/capacitacao-asimov-vinicius" target="_blank" class="btn-projeto">Ver Repositório</a>
+                </article>
+
+            </div>
+        </section>
+
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            
+            <ul>
+                <li>
+                    <strong>E-mail:</strong> 
+                    <a href="mailto:viniciuscic70@gmail.com">viniciuscic70@gmail.com</a>
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong> 
+                    <a href="https://www.linkedin.com/in/vinicius-reis-005717433/" target="_blank">Acessar Perfil</a>
+                </li>
+                <li>
+                    <strong>GitHub:</strong> 
+                    <a href="https://github.com/viniciusreis81" target="_blank">Acessar Repositório</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Vinicius Reis. Desenvolvido para a Capacitação Desktop da Asimov Jr.</p>
+    </footer>
+
+    <script>
+        const btnMobile = document.getElementById('btn-mobile');
+        const menu = document.getElementById('menu');
+
+        btnMobile.addEventListener('click', () => {
+            menu.classList.toggle('ativo');
+        });
+
+        const botao = document.getElementById('btn-tema');
+        
+        botao.addEventListener('click', function() {
+            document.body.classList.toggle('dark-theme');
+            
+            if (document.body.classList.contains('dark-theme')) {
+                botao.textContent = '☀️ Claro';
+            } else {
+                botao.textContent = '🌙 Escuro';
+            }
+        });
+    </script>
+</body>
+</body>
+</html>
