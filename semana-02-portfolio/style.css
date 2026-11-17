@@ -1,5 +1,5 @@
 /* =========================================
-   1. VARIÁVEIS (Paleta de Cores)
+    VARIÁVEIS (Paleta de Cores)
    ========================================= */
 :root {
     --cor-fundo: #F8F9FA;
@@ -11,7 +11,7 @@
 }
 
 /* =========================================
-   2. RESET CSS
+    RESET CSS
    ========================================= */
 * {
     margin: 0;
@@ -32,7 +32,7 @@ a {
 }
 
 /* =========================================
-   3. CABEÇALHO E NAVEGAÇÃO
+    CABEÇALHO E NAVEGAÇÃO
    ========================================= */
 header {
     background-color: var(--cor-cartao);
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 /* =========================================
-   4. ESPAÇAMENTO GERAL DAS SEÇÕES
+    ESPAÇAMENTO GERAL DAS SEÇÕES
    ========================================= */
 section {
     padding: 4rem 5%;
@@ -92,7 +92,7 @@ section h2 {
 }
 
 /* =========================================
-   6. ESTILOS DOS CARTÕES (Com Flexbox interno)
+    ESTILOS DOS CARTÕES (Com Flexbox interno)
    ========================================= */
 .card-habilidade, .card-projeto {
     background-color: var(--cor-cartao);
@@ -110,7 +110,7 @@ section h2 {
 }
 
 /* =========================================
-   7. AJUSTE DE IMAGENS E BOTÕES (A Mescla)
+    AJUSTE DE IMAGENS E BOTÕES (A Mescla)
    ========================================= */
 .card-projeto img {
     width: 100%;
@@ -152,8 +152,61 @@ section h2 {
     gap: 0.8rem;
 }
 
+/* ===============================
+   SEÇÃO DE EXPERIÊNCIA
+================================== */
+#experiencia {
+  padding: 4rem 2rem; 
+  text-align: center;
+}
+
+#experiencia h2 {
+  margin-bottom: 2rem;
+}
+
+.experiencia-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experiencia-card {
+  background-color: var(--bg-card); 
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 5px solid var(--cor-primaria); 
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experiencia-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.experiencia-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.experiencia-card h4 {
+  color: var(--cor-primaria); 
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experiencia-card .periodo {
+  font-size: 0.9rem;
+  color: var(--texto-secundario); 
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 /* =========================================
-   8. RESPONSIVIDADE (Telas de Celular e Tablet)
+    RESPONSIVIDADE (Telas de Celular e Tablet)
    ========================================= */
 @media (max-width: 768px) {
     
@@ -194,7 +247,7 @@ section h2 {
 }
 
 /* =========================================
-   DESAFIO BÔNUS 1: MODO ESCURO (DARK THEME)
+    MODO ESCURO (DARK THEME)
    ========================================= */
 body.dark-theme {
     --cor-fundo: #121212;
