@@ -239,3 +239,40 @@ body.dark-theme .card-habilidade:hover,
 body.dark-theme .card-projeto:hover {
     box-shadow: 0 8px 15px rgba(255, 255, 255, 0.05);
 }
+
+/* =========================================
+   MENU (MOBILE)
+   ========================================= */
+#btn-mobile {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--cor-texto);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #btn-mobile {
+        display: block; 
+    }
+    #menu {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        width: 100%;
+        background-color: var(--cor-fundo);
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+    }
+    #menu.ativo {
+        display: flex;
+    }
+    #menu li {
+        margin: 10px 0;
+    }
+}

@@ -11,7 +11,8 @@
     
     <header>
         <nav>
-            <ul>
+            <button id="btn-mobile" aria-label="Abrir Menu">☰</button>
+            <ul id="menu">
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -104,6 +105,7 @@
             </div>
         </section>
 
+        
         <section id="contato">
             <h2>Contato</h2>
             
@@ -129,6 +131,13 @@
     </footer>
 
     <script>
+        const btnMobile = document.getElementById('btn-mobile');
+        const menu = document.getElementById('menu');
+
+        btnMobile.addEventListener('click', () => {
+            menu.classList.toggle('ativo');
+        });
+
         const botao = document.getElementById('btn-tema');
         
         botao.addEventListener('click', function() {
